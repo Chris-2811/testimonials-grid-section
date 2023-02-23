@@ -56,8 +56,9 @@ body {
 }
 
 .container-inner .name {
-  margin-bottom: 5px;
-  line-height: 11px;
+  margin-bottom: 4px;
+  line-height: 13px;
+  font-weight: 500;
 }
 
 .card {
