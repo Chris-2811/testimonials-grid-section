@@ -43,10 +43,6 @@ body {
   align-items: center;
 }
 
-.header .name {
-  line-height: 11px;
-}
-
 .header img {
   border-radius: 50%;
   height: 28px;
@@ -60,11 +56,13 @@ body {
 }
 
 .container-inner .name {
-  margin-bottom: 4px;
+  margin-bottom: 5px;
+  line-height: 11px;
 }
 
 .card {
   border-radius: 8px;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
 }
 
 .card .lead {
@@ -83,6 +81,7 @@ body {
 
 .card .lead-sub {
   line-height: 18px;
+  opacity: 0.7;
 }
 
 #verified {
