@@ -33,8 +33,9 @@ body {
   max-height: 572px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 271px 271px;
-  gap: 30px;
+  grid-template-rows: 282px 266px;
+  column-gap: 30px;
+  row-gap: 24px;
 }
 
 .header {
@@ -72,6 +73,12 @@ body {
   font-weight: 600;
   line-height: 24px;
   z-index: 2;
+}
+
+.card-3 .lead,
+.card-4 .lead,
+.card-5 .lead {
+  margin-bottom: 24px;
 }
 
 .card .lead-sub {
