@@ -33,7 +33,7 @@ body {
   max-height: 572px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 286px 268px;
+  grid-template-rows: 271px 271px;
   gap: 30px;
 }
 
@@ -55,7 +55,7 @@ body {
 
 .card-1 .header img,
 .card-5 .header img {
-  border: 2px solid hsla(264, 82%, 70%, 1);
+  outline: 2px solid hsla(264, 82%, 70%, 1);
 }
 
 .container-inner .name {
@@ -80,6 +80,8 @@ body {
 
 #verified {
   opacity: 0.5;
+  font-size: 11px;
+  line-height: 11px;
 }
 
 .card-1 {
